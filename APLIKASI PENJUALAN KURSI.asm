@@ -105,27 +105,27 @@ proses:
 	je hasil1
 
 	cmp bh,'0'
-	cmp bh,'2'
+	cmp bl,'2'
 	je hasil2
 
 	cmp bh,'0'
-	cmp bh,'3'
+	cmp bl,'3'
 	je hasil3
 
 	cmp bh,'0'
-	cmp bh,'4'
+	cmp bl,'4'
 	je hasil4
 
 	cmp bh,'0'
-	cmp bh,'5'
+	cmp bl,'5'
 	je hasil5
 
 	cmp bh,'0'
-	cmp bh,'6'
+	cmp bl,'6'
 	je hasil6 
 	
 	cmp bh,'0'
-	cmp bh,'7'
+	cmp bl,'7'
 	je hasil7
 
 	jne error_msg
